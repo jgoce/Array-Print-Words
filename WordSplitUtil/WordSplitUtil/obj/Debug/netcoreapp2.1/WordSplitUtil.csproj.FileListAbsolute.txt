@@ -1,0 +1,11 @@
+C:\Users\goce_\source\repos\WordSplitUtil\WordSplitUtil\bin\Debug\netcoreapp2.1\WordSplitUtil.deps.json
+C:\Users\goce_\source\repos\WordSplitUtil\WordSplitUtil\bin\Debug\netcoreapp2.1\WordSplitUtil.runtimeconfig.json
+C:\Users\goce_\source\repos\WordSplitUtil\WordSplitUtil\bin\Debug\netcoreapp2.1\WordSplitUtil.runtimeconfig.dev.json
+C:\Users\goce_\source\repos\WordSplitUtil\WordSplitUtil\bin\Debug\netcoreapp2.1\WordSplitUtil.dll
+C:\Users\goce_\source\repos\WordSplitUtil\WordSplitUtil\bin\Debug\netcoreapp2.1\WordSplitUtil.pdb
+C:\Users\goce_\source\repos\WordSplitUtil\WordSplitUtil\obj\Debug\netcoreapp2.1\WordSplitUtil.csprojAssemblyReference.cache
+C:\Users\goce_\source\repos\WordSplitUtil\WordSplitUtil\obj\Debug\netcoreapp2.1\WordSplitUtil.csproj.CoreCompileInputs.cache
+C:\Users\goce_\source\repos\WordSplitUtil\WordSplitUtil\obj\Debug\netcoreapp2.1\WordSplitUtil.AssemblyInfoInputs.cache
+C:\Users\goce_\source\repos\WordSplitUtil\WordSplitUtil\obj\Debug\netcoreapp2.1\WordSplitUtil.AssemblyInfo.cs
+C:\Users\goce_\source\repos\WordSplitUtil\WordSplitUtil\obj\Debug\netcoreapp2.1\WordSplitUtil.dll
+C:\Users\goce_\source\repos\WordSplitUtil\WordSplitUtil\obj\Debug\netcoreapp2.1\WordSplitUtil.pdb
