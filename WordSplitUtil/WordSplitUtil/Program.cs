@@ -7,27 +7,35 @@ namespace WordSplitUtil
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine("Hello World!");
             printArrayWords(new string[] { "Hello", "Ben", "How Are You", "Goce Jankovski" }, '*');
 
-            printArrayWords(new string[] { "Tampa", "Charlotte", "Chicago", "Milwaukee" }, '*');
+            printArrayWords(new string[] { "London", "Charlotte", "New York", "Chicago" }, '*');
 
+            printArrayWords(new string[] {}, '*');
+
+            printArrayWords(null, '*');
         }
 
         static void printArrayWords(string[] wordsArray, char specialCharacter)
         {
-            WordUtil wUtil = new WordUtil();
-            int wordLongLen = wUtil.getLongestStringArray(wordsArray);
+            if (wordsArray != null && wordsArray.Count() > 0)
+            {
+                WordUtil wUtil = new WordUtil();
+                int wordLongLen = wUtil.getLongestStringArray(wordsArray);
 
-            wUtil.printCharacters(specialCharacter, wordLongLen + 4);
+                wUtil.printCharacters(specialCharacter, wordLongLen + 4);
 
-            wordsArray.ToList().ForEach(w => 
-                Console.WriteLine(specialCharacter + " " 
-                                    + w.ToString().PadRight(wordLongLen) 
-                                    + " " 
-                                    + specialCharacter));            
+                wordsArray.ToList().ForEach(w =>
+                    Console.WriteLine(specialCharacter + " "
+                                        + w.ToString().PadRight(wordLongLen)
+                                        + " "
+                                        + specialCharacter));
 
-            wUtil.printCharacters(specialCharacter, wordLongLen + 4);
+                wUtil.printCharacters(specialCharacter, wordLongLen + 4);
+            }
+            else
+                Console.WriteLine("Array is empty");
+
         }
     }
 
